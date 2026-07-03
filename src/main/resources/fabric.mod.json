@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "spawninvuln",
+	"version": "${version}",
+	"name": "Spawn Invulnerability",
+	"description": "Restores the ~3 second invulnerability players used to get when joining a world or respawning after death (removed from vanilla in 1.21.4). Duration is configurable with the spawninvuln:spawn_invulnerability_ticks game rule.",
+	"authors": [
+		"you"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"com.spawninvuln.SpawnInvulnerability"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
